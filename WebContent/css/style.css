@@ -71,6 +71,26 @@ button {
     text-align: center;
 }
 
+#flush_success {
+    width: 100%;
+    padding-top: 28px;
+    padding-left: 2%;
+    padding-bottom: 28px;
+    margin-bottom: 15px;
+    color: #155724;
+    background-color: #d4edda;
+}
+
+#flush_error {
+    width: 100%;
+    padding-top: 28px;
+    padding-left: 2%;
+    padding-bottom: 28px;
+    margin-bottom: 15px;
+    color: #721c24;
+    background-color: #f8d7da;
+}
+
 table#employee_list th {
     width: 30%;
     padding: 10px 2%;
@@ -97,16 +117,6 @@ select {
     padding-top: 17px;
     padding-left: 3%;
     display: inline-block;
-}
-
-#flush_success {
-    width: 100%;
-    padding-top: 28px;
-    padding-left: 2%;
-    padding-bottom: 28px;
-    margin-bottom: 15px;
-    color: #155724;
-    background-color: #d4edda;
 }
 
 #employee_name {
@@ -149,4 +159,15 @@ table#report_list .report_action {
 
 pre {
     font-family: "Hiragino Kaku Gothic Pro", Meiryo, "MS PGothic", Helvetica, Arial, sans-serif;
+}
+
+h3 {
+    font-size: larger;
+}
+
+/*
+    日報の内容の文章がはみ出す際に、スクロールバーを表示して枠からはみ出さないようにする。
+*/
+.reportContent {
+    overflow: auto;
 }

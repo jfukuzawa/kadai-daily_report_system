@@ -20,10 +20,10 @@
                         <th>内容</th>
                         <!--
                             日報の内容について、ウィンドウを小さく表示した際に長い文章が
-                            枠からはみ出ないようにする。
-                            (はみ出る際はスクロールバーが表示)
+                            枠からはみ出ないようにする。(style.cssにて記述)
+                            (はみ出る際はスクロールバーを表示)
                          -->
-                        <td style="overflow: auto;">
+                        <td class="reportContent">
                             <pre><c:out value="${report.content}" /></pre>
                         </td>
                     </tr>
